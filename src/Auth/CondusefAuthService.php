@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenFintech\Complaints\Auth;
+namespace OpenFintech\Condusef\Auth;
 
 class CondusefAuthService
 {

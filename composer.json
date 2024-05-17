@@ -1,16 +1,16 @@
 {
-  "name": "ivanchavez01/complaints",
+  "name": "ivanchavez01/condusef",
   "description": "Integración de servicios Condusef Redeco y Reune con PHP",
   "type": "library",
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "OpenFintech\\Complaints\\": "src/"
+      "OpenFintech\\Condusef\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Tests\\OpenFintech\\Complaints\\": "tests/"
+      "Tests\\OpenFintech\\Condusef\\": "tests/"
     }
   },
   "authors": [

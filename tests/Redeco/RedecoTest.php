@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\OpenFintech\Complaints\Redeco;
+namespace Tests\OpenFintech\Condusef\Redeco;
 
 use GuzzleHttp\Client;
-use OpenFintech\Complaints\Condusef;
-use OpenFintech\Complaints\Redeco\RedecoService;
-use OpenFintech\Complaints\Reune\ReuneService;
+use OpenFintech\Condusef\Condusef;
+use OpenFintech\Condusef\Redeco\RedecoService;
+use OpenFintech\Condusef\Reune\ReuneService;
 use PHPUnit\Framework\TestCase;
 
 class RedecoTest extends TestCase
@@ -26,11 +26,11 @@ class RedecoTest extends TestCase
         $this->accessToken = '';
     }
 
-    public function testSearchComplaints()
+    public function testSearchCondusef()
     {
-        $complaints = $this->condusef->redeco->buscar($this->accessToken, 2024, 3);
-        $this->assertIsArray($complaints);
-        $this->assertNotEmpty($complaints);
+        $Condusef = $this->condusef->redeco->buscar($this->accessToken, 2024, 3);
+        $this->assertIsArray($Condusef);
+        $this->assertNotEmpty($Condusef);
     }
 
     public function testCausas()

@@ -1,9 +1,9 @@
 <?php
 
-namespace OpenFintech\Complaints;
+namespace OpenFintech\Condusef;
 
-use OpenFintech\Complaints\Redeco\RedecoService;
-use OpenFintech\Complaints\Reune\ReuneService;
+use OpenFintech\Condusef\Redeco\RedecoService;
+use OpenFintech\Condusef\Reune\ReuneService;
 
 class Condusef
 {

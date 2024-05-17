@@ -1,8 +1,8 @@
 <?php
 
-namespace OpenFintech\Complaints\Reune;
+namespace OpenFintech\Condusef\Reune;
 
-use OpenFintech\Complaints\Redeco\CondusefService;
+use OpenFintech\Condusef\Redeco\CondusefService;
 
 class ReuneService extends CondusefService
 {

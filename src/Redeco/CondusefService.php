@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenFintech\Complaints\Redeco;
+namespace OpenFintech\Condusef\Redeco;
 
 use GuzzleHttp\Client;
 
